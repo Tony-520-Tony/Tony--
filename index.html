@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tony · 个人网站</title>
+  <meta name="description" content="Tony 的个人名片 / 在线简历 —— 简约、干净、现代。" />
+  <link rel="icon" href="bin/favicon.png" />
+  <!-- 图标库：Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 顶部导航栏 -->
+  <header class="navbar" id="top">
+    <nav class="nav-container">
+      <a href="#home" class="brand">Tony</a>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">首页</a></li>
+        <li><a href="#about" class="nav-link">关于我</a></li>
+        <li><a href="#contact" class="nav-link">联系我</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 首页 / Hero -->
+    <section class="hero" id="home">
+      <div class="avatar">
+        <img src="https://i.pravatar.cc/400?img=12" alt="Tony 的头像" />
+      </div>
+      <h1 class="name">Tony</h1>
+      <p class="tagline">嗨嗨，这里是有趣的Tony频道!一起玩耍吧~</p>
+      <a href="#contact" class="btn">联系我</a>
+    </section>
+
+    <!-- 关于我 -->
+    <section class="about" id="about">
+      <h2 class="section-title">关于我</h2>
+      <p class="about-text">
+        你好，我是 Tony，一个热爱生活、充满好奇心的人。我喜欢探索新事物，享受把复杂的想法
+        变成简单有趣作品的过程。平时我乐于分享、乐于协作，相信积极的态度能让每一天都闪闪发光。
+        希望在这里，我们能一起发现更多美好，一起玩耍、一起成长～
+      </p>
+    </section>
+
+    <!-- 联系我 -->
+    <section class="contact" id="contact">
+      <h2 class="section-title">联系我</h2>
+      <p class="contact-text">在下面的社交平台找到我，一起玩耍吧！</p>
+      <div class="socials">
+        <a href="#" class="social" aria-label="微信"><i class="fa-brands fa-weixin"></i></a>
+        <a href="#" class="social" aria-label="微博"><i class="fa-brands fa-weibo"></i></a>
+        <a href="#" class="social" aria-label="QQ"><i class="fa-brands fa-qq"></i></a>
+        <a href="#" class="social" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="#" class="social" aria-label="邮箱"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Tony. 保留所有权利。</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
